@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain DApp</title>
+  <link href="crypto.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.5.2/web3.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Blockchain DApp</h1>
+      <p class="description">A modern interface to interact with Ethereum blockchain</p>
+    </header>
+    
+    <main>
+      <!-- Connect Wallet Button -->
+      <button id="connect-wallet" class="connect-button">Connect Wallet</button>
+
+      <!-- Wallet Info Section -->
+      <div id="wallet-info" class="wallet-info hidden">
+        <p><strong>Wallet Address:</strong> <span id="wallet-address">Not connected</span></p>
+        <p><strong>ETH Balance:</strong> <span id="wallet-balance">0</span> ETH</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Made with ❤️ by You</p>
+    </footer>
+  </div>
+
+  <script src="crypto.js"></script>
+</body>
+</html>
